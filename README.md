@@ -1,4 +1,4 @@
-# alien-minimal 
+# alien-minimal
 
 [![GitHub tag](https://img.shields.io/github/tag/eendroroy/alien-minimal.svg)](https://github.com/eendroroy/alien-minimal/tags)
 
@@ -44,7 +44,7 @@ Add the following line to your .zshrc depending on your zsh plugin manager
 ## Customizations
 
 **add configurations before plugin definitions**
-    
+
 ### Add start tag and end tag:
 
     export PROMPT_START_TAG='-->'
@@ -125,6 +125,7 @@ export am_venv_color=8         # color fir python virtual env text
 export am_python_color=2       # color for python version text
 export am_ruby_color=1         # color for ruby version text
 export am_java_color=15        # color for java version text
+export am_node_color=15        # color for node version text
 export am_timer_color=14       # color for command execution time
 ```
 
@@ -149,6 +150,7 @@ am_theme(){
   [[ -z $am_python_color ]]       && am_python_color=40
   [[ -z $am_ruby_color ]]         && am_ruby_color=196
   [[ -z $am_java_color ]]         && am_java_color=178
+  [[ -z $am_node_color ]]         && am_node_color=64
   [[ -z $am_timer_color ]]        && am_timer_color=248
 }
 ```
@@ -173,7 +175,7 @@ Enable Nerd Font
 
     export AM_JAVA_SYM='J:'     # JAVA Version Symbol
     export AM_PY_SYM='P:'       # Python Version Symbol
-    export AM_RB_SYM='R:'       # Ruby Version Symbol 
+    export AM_RB_SYM='R:'       # Ruby Version Symbol
     export AM_GIT_SYM=G         # Git Symbol
     export AM_HG_SYM=M          # Mercurial Symbol
     export AM_SSH_SYM=[S]       # SSH Indicator Symbol
