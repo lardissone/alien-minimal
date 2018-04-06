@@ -31,5 +31,5 @@ am_crystal_version(){
 }
 
 am_node_version(){
-  echo -ne "%F{$am_node_color}${AM_PY_SYM}`plib_node_version`%f"
+  echo -ne "%F{$am_node_color}${AM_NODE_SYM}`plib_node_version`%f"
 }

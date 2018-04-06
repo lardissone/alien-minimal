@@ -15,10 +15,12 @@ if [[ $USE_NERD_FONT = 1 ]]; then
   [[ -z "${AM_RB_SYM}" ]]         && AM_RB_SYM=' '
   [[ -z "${AM_GO_SYM}" ]]         && AM_GO_SYM=''
   [[ -z "${AM_CRYSTAL_SYM}" ]]    && AM_CRYSTAL_SYM=''
+  [[ -z "${AM_NODE_SYM}" ]]       && AM_NODE_SYM=''
 fi
 
 [[ -z "${AM_JAVA_SYM}" ]] && AM_JAVA_SYM=''
 [[ -z "${AM_PY_SYM}" ]]   && AM_PY_SYM=''
+[[ -z "${AM_NODE_SYM}" ]] && AM_NODE_SYM=''
 [[ -z "${AM_RB_SYM}" ]]   && AM_RB_SYM=''
 [[ -z "${AM_GIT_SYM}" ]]  && AM_GIT_SYM=G
 [[ -z "${AM_HG_SYM}" ]]   && AM_HG_SYM=H

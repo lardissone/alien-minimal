@@ -175,6 +175,7 @@ Enable Nerd Font
 
     export AM_JAVA_SYM='J:'     # JAVA Version Symbol
     export AM_PY_SYM='P:'       # Python Version Symbol
+    export AM_NODE_SYM='N:'     # Python Version Symbol
     export AM_RB_SYM='R:'       # Ruby Version Symbol
     export AM_GIT_SYM=G         # Git Symbol
     export AM_HG_SYM=M          # Mercurial Symbol
